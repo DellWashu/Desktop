@@ -1,0 +1,183 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Styling the navigation bar */
+  nav {
+    background-color: #fff;
+    padding: 1rem;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    margin-right: 1rem;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: Helvetica;
+    font-weight: 500;
+  }
+  /* Styling the products section */
+
+  .home{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home_info{
+    width: 50%;
+    height: 80vh;
+    background-color: #fddeeb;
+    color: #000000;
+    text-shadow: 2px 2px #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .home_info h1{
+    margin-top: 20vh;
+    font-size: 38px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_info p{
+    margin-top: 1vh;
+    font-size: 24px;
+    padding: auto;
+  }
+
+  .home_bg{
+    background-image: url("roses.png");
+    background-position: top right;
+    background-size: cover;
+    background-color: #FEE5F0;
+    width: 50%;
+    height: 80vh;
+  }
+
+  .home_bg img{
+    width: 300px;
+    height: 300px;
+    margin-top:20vh;
+    margin-left: 30%;
+  }
+
+  /* Styling the products section */
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .product-card {
+    width: 280px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .product-card img {
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+  }
+
+  .product-info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Styling the contact us section */
+  .contact {
+    height: 800px;
+    padding: 40px;
+    text-align: center;
+    background-color: #eb2751;
+  }
+
+  .contact h2 {
+    margin-bottom: 1rem;
+    
+  }
+
+  .contact p {
+    margin-bottom: 1rem;
+    
+  }
+
+  /* Styling the footer */
+  footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+  .contact-card {
+      max-width: 400px;
+      margin: auto auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+  .contact-form label {
+      margin-bottom: 5px;
+    }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+
+  .contact-form textarea {
+      resize: vertical;
+      min-height: 100px;
+   }
+
+  .contact-form input[type="submit"] {
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+  .contact-form input[type="submit"]:hover {
+      background-color: #0056b3;
+  }
